@@ -6,6 +6,7 @@ Most social media posts about Artificial Intelligence (AI) receive minimal inter
 This project analyzes **893,076 AI-related tweets** (820,951 cleaned English tweets from 2017–2021) from the Harvard Dataverse corpus (`doi:10.7910/DVN/NHLEJL`), framing virality prediction as an imbalanced binary classification task targeting the top **11.1%** of posts by combined engagement (likes + retweets + replies)[cite: 37]. 
 
 We engineer a leakage-free machine learning pipeline combining **TF-IDF text vectorization**, **VADER sentiment analysis**, **Random Forest feature selection**, and **SMOTE-Tomek resampling** to benchmark 10 tuned classical algorithms against a **Proposed Resampled Stacking Ensemble (VSE)**[cite: 37]. Findings and model diagnostics are visualized in an interactive **Power BI Dashboard**[cite: 37].
+<img width="1121" height="631" alt="POWER BI DASHBOARD" src="https://github.com/user-attachments/assets/da3c0044-42be-491c-a802-75612cbdad44" />
 
 ---
 
